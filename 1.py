@@ -158,5 +158,77 @@
 # for i in range(1,101):
 #     print(i)
 
-# ii.	Write a program to print the sum of the first  n  natural  numbers. (n*n+1/ 2) 
+
+# num =3
+# num2=5
+# for i in range(1,101):
+#     if i%3==0:
+#         if i%5==0:
+#             print(i)
+
+#  print prime number between 1 to 100
+# for num in range(2, 101): 
+#     is_prime = True
+#     for i in range(2, int(num ** 0.5) + 1):  
+#         if num % i == 0:
+#             is_prime = False
+#             break
+#     if is_prime:
+#         print(num)
+#  gcd
+# n1=int(input("enter fst number :"))
+# n2=int(input("enter sec number :"))
+# small=0
+# lrg=0
+# gcd=0
+# if n1>n2:
+#     lrg =n1
+#     small=n2
+# else:
+#     lrg=n2
+#     small=n1
+
+# for i in range(1,small+1):
+#     if lrg%i==0 and small%i==0:
+#         gcd=i
+# print(gcd)
+
+# lcm
+
+# num1=int(input("Enter a number :"))
+# num2 = int(input(" Enter a number :"))
+# high =0
+# low=0
+# if num1>num2:
+#     high=num1
+#     low=num2
+# else:
+#     high=num2
+#     low=num1
+# if high%low==0:
+#     print(high,"lcm fo ",num1,num2)
+# else:
+#     temp=high
+#     while True:
+#         if temp%low==0 and temp%high==0:
+#             print(temp,"is the lcm of ",num1,num2)
+#             break
+#         temp+=high
+
+
+# next prime number is
+# num = int(input("Enter a number: "))  
+# next_num = num + 1  
+
+# while True:  
+#     is_prime = True  
+#     for i in range(2, int(next_num ** 0.5) + 1):  
+#         if next_num % i == 0:  
+#             is_prime = False  
+#             break  
+
+#     if is_prime:  
+#         print("Next prime number is:", next_num)  
+#     next_num += 1  
+
 
